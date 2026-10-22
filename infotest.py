@@ -20,6 +20,8 @@ try:
     # This will contain the structured XBRL facts
     financial_data = filing.xbrl.facts
     print(financial_data.head())
+    print("Main branch: EDGAR connection test successful.")
+
 
     # You can save this to a CSV or Excel file if needed
     # financial_data.to_csv("AAPL_latest_10Q_data.csv")
