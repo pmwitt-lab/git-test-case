@@ -21,6 +21,7 @@ try:
     financial_data = filing.xbrl.facts
     print(financial_data.head())
     print("Main branch: EDGAR connection test successful.")
+    print ("Testing branching")
 
 
     # You can save this to a CSV or Excel file if needed
